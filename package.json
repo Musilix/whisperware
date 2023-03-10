@@ -1,13 +1,34 @@
 {
   "name": "whisperware",
-  "displayName": "whisperware",
-  "description": "A VS Code extension that uses ChatGPT in order to simplify and explain complex code blocks so even a 5 year old could understand it.",
-  "version": "0.0.1",
+  "publisher": "KareemShehab",
+  "displayName": "Whisperware",
+  "description": "A VS Code extension that uses ChatGPT in order to simplify and explain complex code blocks.",
+  "version": "0.0.3",
+  "icon": "assets/cheaptrick.png",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/Musilix/whisperware/blob/main/README.md",
+  "repository": {
+    "url": "https://github.com/Musilix/whisperware",
+    "type": "git"
+  },
   "engines": {
     "vscode": "^1.76.0"
   },
   "categories": [
+    "Machine Learning",
+    "Education",
     "Other"
+  ],
+  "keywords": [
+    "ChatGPT",
+    "AI Teacher",
+    "Code Summarizer",
+    "Summarizer",
+    "Explainer",
+    "ELI5"
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
