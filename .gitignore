@@ -1,0 +1,4 @@
+/node_modules
+.vscodeignore
+readme-ref.md
+vsc-extension-quickstart.md
